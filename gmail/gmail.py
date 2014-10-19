@@ -158,3 +158,7 @@ class Gmail():
 
     def mail_domain(self):
         return self.username.split('@')[-1]
+
+    def trash(self):
+        return self.username.split("[Gmail]/Trash")
+
